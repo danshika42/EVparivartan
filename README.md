@@ -16,9 +16,34 @@ Challenges we faced and features we hope to implement in future:
 - It was hard to find exact resources since it was a new concept.
 - We studied from different patents for the reliability of the technology to be used.
 - We are thinking to implement a smart AI trip planner for the betterment of user experience.
+- Also we are thinking of verification using barcode for the app and entering the lane.
 
+We have deployed a website telling about our project and along with some payment gateways it is deployed over Spheron.network.
+https://evparivartan-6n3a8.spheron.app/
 
-## Demo
+TECH STACK:
+(FOR APPLICATION)
 
-Insert gif or link to demo
+- Kotlin (app dev)
 
+- Retro Fit
+
+- Coroutines
+
+- AI Chat Bot 
+
+- Map Integration 
+
+TECH STACK: 
+(FOR WEB)
+
+- HTML, CSS, Java Script
+- React Native
+- Fire base 
+- Authentication Using Auth0 
+- Deployed using Spheron.Network also used Polygon
+
+For JuiceBox Sponsor Prize:
+we have made another idea and a project for the same added it in the JuiceBox folder.
+JuiceBox PPT and Video Explanation:
+ 
