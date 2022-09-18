@@ -1,22 +1,32 @@
 import React from "react";
 import './Footer.css'
+import {Link} from 'react-router-dom'
 
 export default function Footer() {
   return (
     <footer class="footer-distributed bg-blue-100 mt-20">
       <div class="footer-left">
-        <span className="text-blue-500 font-semibold">EV parivartan</span>
+         <Link to='/'>
+            <span className="text-blue-500 font-semibold">EV parivartan</span>
+          </Link>
 
         <p class="footer-links flex flex-row w-80 justify-between font-bold text-sm">
-          <a href="#" class="link-1">
-            Home
-          </a>
+          <Link to='/'>
+            <a class="link-1">
+              Home
+            </a>
+          </Link>
+          <Link to='/fare'>
+            <a >Fare</a>
+          </Link>
 
-          <a href="#">Fare</a>
-
-          <a href="#">Route</a>
-
-          <a href="#">Contact</a>
+          <Link to='/route'>
+            <a>Route</a>
+          </Link>
+        
+          <Link to='/contact'>
+            <a>Contact</a>
+          </Link>
         </p>
 
         <p class="footer-company-name">EV parivartan © 2022</p>
@@ -58,5 +68,5 @@ export default function Footer() {
         </div>
       </div>
     </footer>
-  );
+  )
 }
