@@ -30,16 +30,6 @@ export default function Contact() {
 
                 <button className='bg-blue-400 text-white rounded-sm py-1 px-4 mt-2'>Send message</button>
             </form>
-            
-            <h3 class="signup-header">Or signup using</h3> 
-            
-            <div class="social-icons">
-                <ul class="social-list">
-                <li class="social-links"><a href=""><i class="fa-brands fa-facebook"></i></a></li>
-                <li class="social-links"><a href=""><i class="fa-brands fa-twitter"></i></a></li>
-                <li class="social-links"><a href=""><i class="fa-brands fa-google"></i></a></li>
-                </ul>
-            </div>  
         </div>
   </div>
     </div>
